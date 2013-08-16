@@ -25,8 +25,8 @@ exports.setUp = function(cb) {
 
   // stub fetching of xml
   var _getXml = bingData.getXml;
-  bingData.getXml = function() {
-    return fs.readFileSync("./test/bing-response.xml", 'utf8');
+  bingData.getXml = function(cb) {
+    cb(fs.readFileSync("./test/bing-response.xml", 'utf8'));
   };
 
   SERVER = imageADay.createServer({

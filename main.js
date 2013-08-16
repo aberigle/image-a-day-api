@@ -6,7 +6,7 @@ var imageADay= require("./lib");
 
 ///--- GLOBALS
 
-var LOG = bunyan.createLogger({
+GLOBAL.LOG = bunyan.createLogger({
   name: "Image a day API"
   , streams: [
     {
@@ -31,7 +31,7 @@ var LOG = bunyan.createLogger({
 /**
  * Standard POSIX getopt-style options parser.
  *
- * node main.js -p 80 -vv 2>&1 | bunyan
+ * node main.js -p 80 2>&1 | bunyan
  *
  * Will set the log level to TRACE.
  */
