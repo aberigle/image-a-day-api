@@ -80,7 +80,7 @@ function usage(msg) {
     log: LOG
   });
 
-  server.listen((options.port || 9090), function whenStarted() {
+  server.listen((process.env.PORT || options.port || 9090), function whenStarted() {
     LOG.info("Listening at %s", server.url);
   });
 })();
