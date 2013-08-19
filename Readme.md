@@ -1,12 +1,17 @@
 # Image a day API
 
-A quick thing to make getting an image of the day
+A quick thing to make getting an image of the day easier.
+
+Currently using the Bing's image of the day, open to adding more and
+allowing supplying of options to select from a specific source or
+random. (like Nasa space image, etc)
 
 Note: Please respect the copyright of the image being displayed.
 
-Currently using the Bing's image of the day
-
 ## Usage
+
+There is a hosted version of this project up at
+[http://image-a-day.herokuapp.com](http://image-a-day.herokuapp.com) but 
 
 ### `GET /image`
 Returns a JSON block like this:
@@ -23,4 +28,6 @@ Returns a JSON block like this:
 ## Why
 
 I'm making an [inbox zero plugin for Gmail /
-Chrome](https://github.com/kalv/gmail-zero-inbox) that will show this photo of the day when I have no emails in my inbox.
+Chrome](https://github.com/kalv/gmail-zero-inbox) that will show this
+photo of the day when I have no emails in my inbox - inspired by the
+mailbox app on iOS.
