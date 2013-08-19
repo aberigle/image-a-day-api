@@ -22,4 +22,5 @@ Returns a JSON block like this:
 
 ## Why
 
-I'm making an inbox zero plugin for Gmail / Chrome that will show this photo of the day when I have no emails in my inbox.
+I'm making an [inbox zero plugin for Gmail /
+Chrome](https://github.com/kalv/gmail-zero-inbox) that will show this photo of the day when I have no emails in my inbox.
